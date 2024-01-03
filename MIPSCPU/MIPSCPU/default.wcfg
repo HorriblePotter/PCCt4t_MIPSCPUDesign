@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Xilinx/documents/MIPSCPU/test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/ExtOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ExtOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ExtOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/ALUctr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUctr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUctr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/nPC_sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nPC_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nPC_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/ALUSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/MemWr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWr</obj_property>
+      <obj_property name="ObjectShortName">MemWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/MemtoReg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/RegDst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/RegWr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/j_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">j_sel</obj_property>
+      <obj_property name="ObjectShortName">j_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/jValue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">jValue[25:0]</obj_property>
+      <obj_property name="ObjectShortName">jValue[25:0]</obj_property>
+   </wvobject>
+</wave_config>
